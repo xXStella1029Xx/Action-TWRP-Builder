@@ -175,4 +175,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: List out Directory Contents
       run: |
-        ls -R workspace/out
+        ls -R workspace
