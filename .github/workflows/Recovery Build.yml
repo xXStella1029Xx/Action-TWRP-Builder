@@ -173,3 +173,6 @@ jobs:
           Target: ${{ github.event.inputs.BUILD_TARGET }}.img
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: List out Directory Contents
+      run: |
+        ls -R workspace/out
